@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>학급소개-재학생.html</title>
+  <style>
+  </style>
+</head>
+
+<body>
+  <header>
+  </header>
+<!--이곳부터 본문내용인듯 -->
+<div style ="text-align : center;">
+<h1> 게임과 3학년 </h1>
+<table>
+<div style = "text-align : center;">
+	<caption>
+    	학생표
+    </caption>
+    <thead>
+    	<tr>
+            <th>번호</th>
+            <th>이름</th>
+            <th>성별</th>
+         </tr>
+    </thead>
+    <tbody>
+         <tr>
+            <td>1</td>
+            <td>기도은</td>
+            <td>여</td>
+        </tr>
+         <tr>
+            <td>2</td>
+            <td>김민수</td>
+            <td>남</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>김민회</td>
+            <td>남</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>김선웅</td>
+            <td>남</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>김성중</td>
+            <td>남</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>김영준</td>
+            <td>남</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>김준형</td>
+            <td>남</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>류한상</td>
+            <td>남</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>목승훈</td>
+            <td>남</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>박영웅</td>
+            <td>남</td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td>손한별</td>
+            <td>남</td>
+        </tr>
+        <tr>
+            <td>12</td>
+            <td>안도현</td>
+            <td>남</td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td>유용수</td>
+            <td>남</td>
+        </tr>
+        <tr>
+            <td>14</td>
+            <td>이기범</td>
+            <td>남</td>
+        </tr>
+        <tr>
+            <td>15</td>
+            <td>이도현</td>
+            <td>남</td>
+        </tr>
+        <tr>
+            <td>16</td>
+            <td>이성재</td>
+            <td>남</td>
+        </tr>
+        <tr>
+            <td>17</td>
+            <td>이아름</td>
+            <td>여</td>
+        </tr>
+        <tr>
+            <td>18</td>
+            <td>이예준</td>
+            <td>남</td>
+        </tr>
+        <tr>
+            <td>19</td>
+            <td>이 준</td>
+            <td>남</td>
+        </tr>
+        <tr>
+            <td>20</td>
+            <td>임진택</td>
+            <td>남</td>
+        </tr>
+        <tr>
+            <td>21</td>
+            <td>전강훈</td>
+            <td>남</td>
+        </tr>
+        <tr>
+            <td>22</td>
+            <td>정동욱</td>
+            <td>남</td>
+        </tr>
+        <tr>
+            <td>23</td>
+            <td>정의훈</td>
+            <td>남</td>
+        </tr>
+        <tr>
+            <td>24</td>
+            <td>정진호</td>
+            <td>남</td>
+        </tr>
+        <tr>
+            <td>25</td>
+            <td>한재용</td>
+            <td>남</td>
+        </tr>
+        <tr>
+            <td>26</td>
+            <td>함승호</td>
+            <td>남</td>
+        </tr>
+    </tbody>
+
+</div>
+</table>
+
+</div>
+
+</body>
+
+</html>

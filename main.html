@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>함승호홈페이지만들기.html</title>
+  <style>
+    *{ margin: 0; padding: 0;}
+    ul{list-style-type: none;}
+    a {
+      text-decoration: none;
+      color: #000;
+    }
+    header{
+      /* background: #ccc; */
+      position: relative;
+      width: 800px;
+      height: 50px;
+      margin: 0 auto;
+      background: #efefef;
+    }
+    header ul.depth1 > li > a {
+      font-size: 18px;
+    }
+    header ul.depth2 > li > a {
+      font-size: 14px;
+      text-align: left;
+    }
+
+    header ul.depth1 {
+      position: relative;
+      top: 8px;
+      /* outline: 1px solid red; */
+      overflow: hidden;
+    }
+
+    header ul.depth1 > li{
+      width: 25%;
+      float: left;
+    }
+    header ul.depth1 > li:hover {
+      background:blue;
+    }
+
+    .depth1 a, .depth2 a{ 
+      display: block;
+      /* border: 1px solid green; */
+      padding: 5px 10px;
+      text-align: center;
+    }
+
+    .depth1 > li:hover a, .depth2 > li > a {
+      color: #fff;
+    }
+
+    /* 2단계 메뉴: 비표시 상태(기본) */
+    header .depth2 {
+      /* display: none; */
+      height: 0;
+      opacity: 0;
+      background: blue;
+      transition-duration: 0.4s;
+    }
+    /* 1단계 메뉴:hover > 2단계 표시 */
+    header .depth1 > li:hover > .depth2{
+      /* display: block; */
+      height: 120px;
+      opacity: 1;
+    }
+
+    /* 2단계 메뉴 목록 hover시 반전효과 */
+    header .depth2 > li:hover > a {
+      background: #fff;
+      color: blue;
+    }
+
+  </style>
+</head>
+
+<body>
+  <!--  
+    1) 2단계 비표시
+    2) 1단계 메뉴 hover 자식(2단계)이 표시
+        - display
+        - height, opacity
+    3) 메뉴 버튼의 시각적 효과(글자색, 배경색)
+  -->
+
+  <header>
+    <ul class="depth1">
+      <li><a href="#">학급소개</a>
+        <ul class="depth2">
+          <li><a href="#">인사말</a></li>
+          <li><a href="#">급훈</a></li>
+          <li><a href="main.html" onclick="window.open('student.html', '_blank', 'width=800, height=600'); return false;">재학생</a>
+          <li><a href="#">졸업생</a></li>
+        </ul>
+      </li>
+      <li><a href="#">학과소개</a>
+        <ul class="depth2">
+          <li><a href="#">게임과</a></li>
+          <li><a href="#">보안과</a></li>
+        </ul>
+      </li>
+      <li><a href="#">인재채용</a>
+        <ul class="depth2">
+          <li><a href="#">채용안내</a></li>
+          <li><a href="#">복리후생</a></li>
+          <li><a href="#">직무소개</a></li>
+        </ul>
+      </li>
+      <li><a href="#">선생님</a>
+        <ul class="depth2">
+          <li><a href="main.html" onclick="window.open('ysc.html', '_blank', 'width=800, height=600'); return false;">유승찬</a>
+          <li><a href="main.html" onclick="window.open('pys.html', '_blank', 'width=800, height=600'); return false;">박윤성</a>
+          <li><a href="main.html" onclick="window.open('kdy.html', '_blank', 'width=800, height=600'); return false;">김대용</a>
+        </ul>
+      </li>
+    </ul>
+  </header>
+<!--이곳부터 본문내용인듯 -->
+<div style ="text-align : center;">
+<h1> 게임과 삼대장 </h1>
+<img src ="./img/3captin.png" alt="3대장" style = "width:800px;">
+</div>
+
+</body>
+
+</html>
