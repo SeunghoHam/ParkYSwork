@@ -91,16 +91,17 @@
     <ul class="depth1">
       <li><a href="#">학급소개</a>
         <ul class="depth2">
-          <li><a href="#">인사말</a></li>
-          <li><a href="#">급훈</a></li>
-          <li><a href="main.html" onclick="window.open('student.html', '_blank', 'width=800, height=600'); return false;">재학생</a>
+          <li><a href="greeting.html">인사말</a></li>
+           <li><a href="#">급훈</a></li>
+          <li><a href="student.html">재학생</a></li>
           <li><a href="#">졸업생</a></li>
         </ul>
       </li>
       <li><a href="#">학과소개</a>
         <ul class="depth2">
-          <li><a href="#">게임과</a></li>
-          <li><a href="#">보안과</a></li>
+          <li><a href="main.html" onclick="window.open('https://hansei.sen.hs.kr/50333/subMenu.do', '_blank', 'width=800, height=600'); return false;">(구)게임과</a>
+          <li><a href="main.html" onclick="window.open('https://hansei.sen.hs.kr/182633/subMenu.do', '_blank', 'width=800, height=600'); return false;">메타버스게임과</a>
+          <li><a href="main.html" onclick="window.open('https://hansei.sen.hs.kr/50642/subMenu.do', '_blank', 'width=800, height=600'); return false;">(구)해킹보안과</a>
         </ul>
       </li>
       <li><a href="#">인재채용</a>
@@ -122,6 +123,8 @@
 <!--이곳부터 본문내용인듯 -->
 <div style ="text-align : center;">
 <h1> 게임과 삼대장 </h1>
+<h2> 구현목록 : 학급소개->인사말,재학생, 학과소개[3], 선생님[3]</h2>
+<h3> 학급소개의 목록들은 현재 페이지에서 열리고 다른것들은 새 창으로 열립니다.</h3>
 <img src ="./img/3captin.png" alt="3대장" style = "width:800px;">
 </div>
 
